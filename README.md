@@ -15,6 +15,7 @@ Prerequisite: [set up Metamask](https://www.cryptokitties.co/faq#Installing-Meta
 Install project dependencies:
 
     $ npm install
+    $ npm install react reactdom next
 
 Start the app
 
