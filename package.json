@@ -1,7 +1,7 @@
 {
   "name": "smartcontract-based-certificate",
   "version": "1.0.0",
-  "description": "Marriage Vows on the Blockchain",
+  "description": "Certifications on the Blockchain",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
