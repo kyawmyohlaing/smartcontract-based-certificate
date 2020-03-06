@@ -1,5 +1,5 @@
 {
-  "name": "Forevermore",
+  "name": "smartcontract-based-certificate",
   "version": "1.0.0",
   "description": "Marriage Vows on the Blockchain",
   "main": "index.js",
@@ -17,9 +17,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/onggunhao/forevermore/issues"
+    "url": "https://github.com/kyawmyohlaing/smartcontract-based-certificate"
   },
-  "homepage": "https://github.com/onggunhao/forevermore#readme",
+  "homepage": "https://github.com/kyawmyohlaing/smartcontract-based-certificate",
   "dependencies": {
     "@zeit/next-css": "^0.2.0",
     "express": "^4.16.3",
