@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/onggunhao/forevermore.git"
+    "url": "git+https://github.com/kyawmyohlaing/smartcontract-based-certificate.gits"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kyawmyohlaing/smartcontract-based-certificate"
   },
-  "homepage": "http://kyawmyohlaing/github.io/smartcontract-based-certificate",
+  "homepage": "http://kyawmyohlaing.github.io/smartcontract-based-certificate",
   "dependencies": {
     "@zeit/next-css": "^0.2.0",
     "express": "^4.16.3",
