@@ -47,31 +47,15 @@ class FAQs extends Component {
           <p>Your certificate contract is 100% owned by you. It was created through your ethereum account through Metamask, and cannot be taken away or destroyed.</p>
         </Accordion.Content>
 
-        <Accordion.Title active={true} index={3} onClick={this.handleClick}>
-          <Icon name='dropdown' />
-          How much do you guys make from this?
-        </Accordion.Title>
-        <Accordion.Content id='Accordion-Content' active={true}>
-          <p>Nothing. We didn’t even launch an ICO.</p>
-          <p>You’re welcome to ring our reward bell, though!</p>
-        </Accordion.Content>
+        
 
         <Accordion.Title active={true} index={4} onClick={this.handleClick}>
           <Icon name='dropdown' />
-          How do I install Metamask to use Forevermore?
+          How do I install Metamask to use certificate DApp?
         </Accordion.Title>
-        <Accordion.Content id='Accordion-Content' active={true}>
-          <p>Please look at the <a href="https://www.cryptokitties.co/faq#Installing-MetaMask-your-digital-wallet">Cryptokitties FAQ</a> because we’re too lazy to write our own.</p>
-        </Accordion.Content>
-
-        <Accordion.Title active={true} index={5} onClick={this.handleClick}>
-          <Icon name='dropdown' />
-          Is this Certified Contract legally binding?
-        </Accordion.Title>
-        <Accordion.Content id='Accordion-Content' active={true}>
-          <p>We don’t know, you should ask your partner.</p>
-        </Accordion.Content>
-      </Accordion>
+        
+        </Accordion>
+        
     )
   }
 }

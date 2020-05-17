@@ -15,7 +15,7 @@ if (typeof window !== 'undefined' && typeof window.web3 !== 'undefined') {
   const provider = new Web3.providers.HttpProvider(
     // 'https://rinkeby.infura.io/pBXAeKwWE9Y2B3y2sRnw'
     //'https://mainnet.infura.io/ukTTF6TIcLu8rqO10w98'
-   
+   'http://165.22.32.19:8000'
     //'http://localhost:8000'
   );
   web3 = new Web3(provider);  // Reassign web3 to provider

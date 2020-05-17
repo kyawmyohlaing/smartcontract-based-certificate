@@ -8,7 +8,9 @@
     "dev": "node server.js",
     "build": "next build",
     "start": "NODE_ENV=production node server.js -p $PORT",
-    "heroku-postbuild": "next build"
+    "heroku-postbuild": "next build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -19,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/kyawmyohlaing/smartcontract-based-certificate"
   },
-  "homepage": "https://github.com/kyawmyohlaing/smartcontract-based-certificate",
+  "homepage": "http://kyawmyohlaing/github.io/smartcontract-based-certificate",
   "dependencies": {
     "@zeit/next-css": "^0.2.0",
     "express": "^4.16.3",

@@ -46,7 +46,7 @@ class CertificateForm extends Component {
       // Submitting form to the blockchain
       try {
         const accounts = await web3.eth.getAccounts();
-        // (1) Create new marriage contract
+        // (1) Create new certificate contract
         let transaction = await CertificateRegistry.methods
           .createCertificate(firstName, middleName, lastName, certificateId, issueDate, date)
           .send({ from: accounts[0] });
@@ -130,7 +130,7 @@ class CertificateForm extends Component {
         <Message success header='yay!' content={ this.state.successMessage } />
 
         <Button loading={ this.state.loading } id='CertificateBtn' icon labelPosition='left'>
-          <Icon name='heart' />
+        <Icon name='heart' />
           Submit
         </Button>
 
